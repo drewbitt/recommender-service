@@ -59,10 +59,14 @@ USER_ID
 4.  Install the app dependencies
 
 ```bash
-pip install
+pip install -r requirements.txt
 ```
 
-5.  If you have some experience with Python development, you may need to have the app loaded from a virtual environment.
+5.  Get movie data files
+
+Create a /data/ folder in the root containing the movie csv files, found [here](https://github.com/jcurlier/notebooks/tree/e644e98c6653da9303e081785a6763c1e79f7005/collaborative-filtering/data).
+
+6.  If you have some experience with Python development, you may need to have the app loaded from a virtual environment.
 
 <h2 align="center">Where is this currently deployed?</h2>
 Heroku, baby!
